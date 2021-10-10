@@ -11,12 +11,18 @@ module.exports = {
       overrideTheme: 'dark',
       nav: [
         { text: 'Games', link: '/games/' },
+        { text: 'Game of the Year', link: '/goty/' },
         { text: 'GitHub', link: 'https://github.com/Hiccup-za/tldr' }
       ],
       sidebar: {
         '/games/': [
           '',
-          '2020'
+          '2020',
+          '2019',
+          '2018',
+          '2017',
+          '2016',
+          '2015'
         ]
       },
       smoothScroll: true,
